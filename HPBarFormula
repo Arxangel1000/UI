@@ -1,0 +1,5 @@
+// variant 1
+line.fillAmount = (float) ((curHP / baseHP)) ;
+
+// variant 2 for damage
+line.fillAmount -= (float) (100 / (startHP / damageValue)) / 100f;
